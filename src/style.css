@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+      .btn-blue {
+        @apply bg-navbar-bg text-white text-nowrap font-bold py-2 px-2 rounded;
+      }
+      .btn-blue:hover {
+        @apply bg-navbar-outline text-white text-nowrap font-bold py-2 px-2 rounded;
+      }
+}
