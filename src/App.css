@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+
+.sidebar{
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+}
