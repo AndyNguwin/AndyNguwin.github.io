@@ -2,12 +2,14 @@ body {
     background-color: #ECEEF1;
 }
 
-.title-color {
+.title-text {
     color: #000000;
+    font-family: 'Poppins', sans-serif;
 }
 
-.body-color {
+.body-text {
     color: #1F2937;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
