@@ -10,6 +10,9 @@
         <div class="sidebar">
             <img class="headshot" src="./images/me_headshot.jpeg">
             <h1 class="name">Andy Nguyen</h1>
+            <p1>
+                B.S. Computer Science, UC Irvine
+            </p1>
             <hr>
             <div class="sidebar-items">
                 <div class="sidebar-item">
@@ -45,21 +48,46 @@
                 </a>
             </div>
         </div>
-        <div class="content">
+        <div class="content-card">
             <div class="content-top">
-                <div>
+                <div id="title-about" class="title active">
                     <h1>About Me</h1>
                     <hr>
                 </div>
+                <div id="title-resume" class="title">
+                    <h1>Resume</h1>
+                    <hr>
+                </div>
+                <div id="title-portfolio" class="title">
+                    <h1 id="title-portfolio">Portfolio</h1>
+                    <hr>
+                </div>
                 <div class="content-nav">
-                    <h2>About</h2>
-                    <h2>Resume</h2>
-                    <h2>Portfolio</h2>
+                    <button data-target="about"><h2>About</h2></button>
+                    <button data-target="resume"><h2>Resume</h2></button>
+                    <button data-target="portfolio"><h2>Portfolio</h2></button>
                 </div>
             </div>
             <!-- <hr> -->
-            <p>yes</p>
+            <div id="content-about" class="content active">
+                <div class="content-about">
+                    <p>Hello World!</p>
+                </div>
+            </div>
+            <div id="content-resume" class="content">
+                <div class="content-resume">
+                    <p>Hello Resume!</p>
+                </div>
+            </div>
+            <div id="content-portfolio" class="content">
+                <div class="content-portfolio">
+                    <p>Hello Portfolio!</p>
+                </div>
+            </div>
         </div>
     </div>
+
+    <!-- Loading javascript profile.js for buttons -->
+    <script src="profile.js"></script>
 </body>
 </html>
