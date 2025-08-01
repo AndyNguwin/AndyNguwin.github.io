@@ -1,3 +1,15 @@
+body {
+    background-color: #F9FAFB;
+}
+
+.title-color {
+    color: #1F2937;
+}
+
+.body-color {
+    color: #4B5563;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -13,7 +25,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: aquamarine;
+    background-color: #FFFFFF;
     border-radius: 10px;
 }
 
@@ -56,7 +68,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: purple;
+    background-color: #FFFFFF;
     border-radius: 10px;
 }
 
@@ -84,8 +96,8 @@
     padding-left: 50px;
     padding-right: 50px;
     border-style: solid;
-    border-color: red;
-    background-color: red;
+    border-color: #7B61FF;
+    background-color: #7B61FF;
     border-radius: 0px 10px 0px 10px;
 }
 
@@ -107,11 +119,15 @@
     /* transition-duration: 0.4s; */
 }
 
-.title {
+.content-nav button.active{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.content-title {
     display: none;
 }
 
-.title.active {
+.content-title.active {
     display: block;
 }
 
