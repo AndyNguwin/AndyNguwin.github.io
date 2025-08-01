@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+     <link rel="stylesheet" href="profile.css">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <title>title</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <img class="headshot" src="./images/me_headshot.jpeg">
+            <h1 class="name title-text">Andy Nguyen</h1>
+            <p class="body-text">B.S. Computer Science, UC Irvine</p>
+            <hr>
+            <div class="sidebar-items">
+                <div class="sidebar-item">
+                    <img class="sidebar-icon" src="./images/email.svg">
+                    <div class="sidebar-item-text">
+                        <h2 class="title-text">Email</h2>
+                        <p class="body-text">andyhnguyen28@gmail.com</p>
+                    </div>
+                </div>
+                <div class="sidebar-item">
+                    <img class="sidebar-icon" src="./images/location.svg">
+                    <div class="sidebar-item-text">
+                        <h2 class="title-text">Location</h2>
+                        <p class="body-text">San Jose,</p>
+                        <p class="body-text">California, USA</p>
+                    </div>
+                </div>
+                <a href="https://www.linkedin.com/in/andynguyen28/">
+                    <div class="sidebar-item">
+                        <img class="sidebar-icon" src="./images/linkedin.svg">
+                        <div class="sidebar-item-text">
+                            <h2>LinkedIn</h2>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/AndyNguwin/">
+                    <div class="sidebar-item">
+                        <img class="sidebar-icon" src="./images/github.svg">
+                        <div class="sidebar-item-text">
+                            <h2>Github</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="content-card">
+            <div class="content-top">
+                <div id="title-about" class="content-title active">
+                    <h1 class="title-text">About Me</h1>
+                    <hr>
+                </div>
+                <div id="title-resume" class="content-title">
+                    <h1 class="title-text">Resume</h1>
+                    <hr>
+                </div>
+                <div id="title-portfolio" class="content-title">
+                    <h1 class="title-text">Portfolio</h1>
+                    <hr>
+                </div>
+                <div class="content-nav">
+                    <button data-target="about" class="active"><h2>About</h2></button>
+                    <button data-target="resume"><h2>Resume</h2></button>
+                    <button data-target="portfolio"><h2>Portfolio</h2></button>
+                </div>
+            </div>
+            <!-- <hr> -->
+            <div id="content-about" class="content active">
+                <div class="content-about">
+                    <p>Hello World!</p>
+                </div>
+            </div>
+            <div id="content-resume" class="content">
+                <div class="content-resume">
+                    <p>Hello Resume!</p>
+                </div>
+            </div>
+            <div id="content-portfolio" class="content">
+                <div class="content-portfolio">
+                    <p>Hello Portfolio!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading javascript profile.js for buttons -->
+    <script src="profile.js"></script>
+</body>
+</html>
