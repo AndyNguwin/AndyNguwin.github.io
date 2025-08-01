@@ -1,13 +1,13 @@
 body {
-    background-color: #F9FAFB;
+    background-color: #ECEEF1;
 }
 
 .title-color {
-    color: #1F2937;
+    color: #000000;
 }
 
 .body-color {
-    color: #4B5563;
+    color: #1F2937;
 }
 
 .container {
@@ -27,6 +27,7 @@ body {
     align-items: center;
     background-color: #FFFFFF;
     border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
 }
 
 .sidebar-items{
@@ -49,6 +50,9 @@ body {
     /* border-radius: 50%; */
     width: 50px;
     height: 50px;
+    /* fill: #7B61FF; */
+    /* filter: invert(28%) sepia(78%) saturate(440%) hue-rotate(230deg) brightness(95%) contrast(90%); used for png/jpg */
+
     object-fit: fill;
 }
 
@@ -70,6 +74,7 @@ body {
     justify-content: flex-start;
     background-color: #FFFFFF;
     border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
 }
 
 .content-top {
@@ -160,13 +165,13 @@ body {
 .sidebar hr {
   border: none;
   height: 3px;
-  background-color: rgba(0, 0, 0, 0.185);
+  background-color: #7B61FF;
   width: 80%;
 }
 .content-top hr {
   border: none;
   height: 3px;
-  background-color: rgba(0, 0, 0, 0.185);
+  background-color: #7B61FF;
   width: 100%;
 }
 
@@ -176,5 +181,5 @@ a, a:visited {
 }
 
 a:hover {
-    color:aliceblue
+    color: #e5dfff;
 }
