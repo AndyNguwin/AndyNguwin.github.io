@@ -10,11 +10,13 @@ body {
 .body-text {
     color: #1F2937;
     font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
 }
 
 .container {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     gap: 10px;
     margin: 25px;
     margin-left: 200px;
@@ -23,6 +25,7 @@ body {
 
 .sidebar {
     position: sticky;
+    flex: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,7 +73,8 @@ body {
 }
 
 .content-card {
-    flex-basis: 75%;
+    flex-basis: 70%;
+    align-self: stretch;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -144,10 +148,15 @@ body {
 
 .content.active {
     display: block;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex-basis: 100%;
 }
 
 .content-about {
     display: flex;
+    flex-direction: column;
 }
 .headshot {
     /* clip-path: circle(50%); */
@@ -184,4 +193,11 @@ a, a:visited {
 
 a:hover {
     color: #e5dfff;
+}
+
+.interests-list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
