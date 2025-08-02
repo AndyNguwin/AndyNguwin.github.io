@@ -1,5 +1,6 @@
 body {
     background-color: #ECEEF1;
+    background-image: url('./assets/background.png');
 }
 
 .title-text {
