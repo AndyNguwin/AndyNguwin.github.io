@@ -156,10 +156,10 @@ body {
     flex-basis: 100%;
 }
 
-.content-about {
+/* .content-about {
     display: flex;
     flex-direction: column;
-}
+} */
 .headshot {
     /* clip-path: circle(50%); */
     border-radius: 50%;
