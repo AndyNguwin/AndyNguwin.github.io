@@ -148,18 +148,46 @@ body {
 }
 
 .content.active {
-    display: flex;
-    flex-direction: column;
+    display: block;
     padding-top: 20px;
     padding-left: 50px;
     padding-right: 50px;
     flex-basis: 100%;
 }
 
-/* .content-about {
+.content-about {
     display: flex;
     flex-direction: column;
-} */
+}
+
+.content-projects {
+    flex: 100%;
+    display: flex;
+    flex-direction: column;
+    /* gap: 50px; */
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+ .content-projects-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 70px;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-thumbnail {
+    width: 80%;
+    /* height: 30%; */
+    border-radius: 10px;
+    object-fit: fill;
+}
 .headshot {
     /* clip-path: circle(50%); */
     border-radius: 50%;
